@@ -1,5 +1,6 @@
 
 
+
 #include "LinkedQueueType.h"
 
 #include <iostream>
@@ -19,7 +20,6 @@ struct NodeType
 };
 
 LinkedQueueType::LinkedQueueType(const LinkedQueueType& qt)
-
 // Copy constructor ---- qt is being copied
 
 {
@@ -289,5 +289,6 @@ if(p == rear->next)
 	cout<<endl;
 
 }
+
 
 
